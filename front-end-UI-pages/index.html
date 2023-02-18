@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Cupping</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark   fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2  mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Treatment
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Dry Cupping</a></li>
+                <li><a class="dropdown-item" href="#">Fire Cupping</a></li>
+                <li><a class="dropdown-item" href="#">Face Cupping</a></li>
+                <li><a class="dropdown-item" href="#">Bridal Care Treatment</a></li>
+                <li><a class="dropdown-item" href="#">Matte Finish Face Cupping</a></li>
+                <li><a class="dropdown-item" href="#">Glossy Glow Face Cupping</a></li>
+                <li><a class="dropdown-item" href="#">Anti-Aging Face Cupping</a></li>
+                <li><a class="dropdown-item" href="#">Face Contour Cupping</a></li>
+                <li><a class="dropdown-item" href="#">Foot Cupping</a></li>
+                <li><a class="dropdown-item" href="#">Breast Cupping</a></li>
+                <li><a class="dropdown-item" href="#">Wet Cupping (Hijama)</a></li>
+                <li><a class="dropdown-item" href="#">Cellulite Reducing</a></li>
+                <li><a class="dropdown-item" href="#">Bum Cupping</a></li>
+                <li><a class="dropdown-item" href="#">Contour Cupping</a></li>
+                <li><a class="dropdown-item" href="#">Full Body Smoothing</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#about_us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#about_us">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#book_appoinment">Book Appoinment</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/01.jpg" class="img-fluid">
+
+        <div class="container">
+          <div class="carousel-caption text-center">
+            <h1>"Cupping can be used as pain management system"</h1>
+            <p><a class="btn  btn-primary" href="#">BOOK NOW</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/01.jpg" class="img-fluid">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>"The Best think with which you can treat sickness is cupping"</h1>
+            <p><a class="btn  btn-primary" href="#">BOOK NOW</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/01.jpg" class="img-fluid">
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>"Cupping can be used as pain management system"</h1>
+            <p><a class="btn  btn-primary" href="#">BOOK NOW</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div class="container">
+    <div class="text-center p-1 h1" ;> <u>Our Services</u> </div>
+
+    <div class="row mt-5 text-center">
+      <div class="col-lg-3">
+        <img src="./images/Dry-Cupping.jpg" alt="img" width="140" height="140" />
+        <p class="h4">Dry Cupping</p>
+        <p class="h6">Are you having a tough day at work? Too much of pressure around? Unable to focus on what is vital
+          in life? Or
+          need to unwind</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-3">
+        <img src="./images/fire-cupping.jpg" alt="img" width="140" height="140" />
+
+        <p class="h4">Fire Cupping</p>
+        <p class="h6">Not as scary as how the name sounds. Not at all harmful because the word fire has been mentioned.
+          Trust us; Fire Cupping gives you</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-3">
+        <img src="./images/bridal.jpg" alt="img" width="140" height="140" />
+
+
+        <p class="h4">Bridal Care Treatment</p>
+        <p class="h6">Weddings are once-in-a-lifetime moment and it symbolizes a new beginning of two souls.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-3">
+        <img src="./images/face-cup.jpg" alt="img" width="140" height="140" />
+        <p class="h4">Face Cupping</p>
+        <p class="h6">We offer four kinds of Face Cupping:
+
+          Matte finish,
+          Glossy glow,
+          Anti-ageing,
+          Face contour</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-3">
+        <img src="./images/Matte-Finish-Face-Cupping.jpg" alt="img" width="140" height="140" />
+
+        <p class="h4">Matte Finish Face Cupping</p>
+        <p class="h6">Beauty and wellness, personified.
+
+          Want to make your face look rejuvenated and fresh always? The sit-ins</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-3">
+        <img src="./images/Glossy-Glow-Face-Cupping.jpg" alt="img" width="140" height="140" />
+
+
+        <p class="h4">Glossy Glow Face Cupping</p>
+        <p class="h6">Face sparkles like never before.
+
+          Why look at the stars which twinkle, when yourselves can be like a star, with a twinkling</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-3">
+        <img src="./images/Anti-Aging-Face-Cupping.jpg" alt="img" width="140" height="140" />
+        <p class="h4">Anti-Aging Face Cupping</p>
+        <p class="h6">Stay young, stay wild.
+
+          Have you worried about wrinkles, eye bags, forehead lines, saggy skin, and more age-related skin changes?</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-3">
+        <img src="./images/Face-Contour-Cupping.jpg" alt="img" width="140" height="140" />
+        <p class="h4">Face Contour Cupping</p>
+        <p class="h6">Change the features of your face.
+
+          From chubby skin and double chin reduction, extra jawline and cheek bow issue, nose</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-3">
+        <img src="./images/Foot-Cupping.jpg" alt="img" width="140" height="140" />
+
+
+        <p class="h4">Foot Cupping</p>
+        <p class="h6">Happy feet.
+
+          Foot cupping is the most sought after by sports persons as this easens the ligament movement, increases the
+          stamina and helps</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-3">
+        <img src="./images/Breast-Cupping.jpg" alt="img" width="140" height="140" />
+
+
+        <p class="h4">Breast Cupping</p>
+        <p class="h6">In this cupping, our focus area is on three things:
+          Reduction,
+          Enlargement,
+          Uplifting</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-3">
+        <img src="./images/Cellulite-Reducing.jpg" alt="img" width="140" height="140" />
+
+
+        <p class="h4">Cellulite Reducing</p>
+        <p class="h6">Did you ever know there are specific cells called fat cells, which do nothing good for your body.
+          Yet they stay within us until</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-3">
+        <img src="./images/Bum-Cupping.jpg" alt="img" width="140" height="140" />
+
+
+        <p class="h4">Bum Cupping</p>
+        <p class="h6">Just like breast cupping, our focus areas on Bum Cupping includes:
+          Reduction,
+          Enlarge,
+          Reshape</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-3">
+        <img src="./images/Contour-Cupping.jpg" alt="img" width="140" height="140" />
+
+
+        <p class="h4">Contour Cupping</p>
+        <p class="h6">Show some swag and slay with your shapes.
+
+          This cupping is all about changing the overall shape of your body. Yes, with our cupping it is</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-3">
+        <img src="./images/Full-Body-Smoothening.jpg" alt="img" width="140" height="140" />
+        <p class="h4">Full Body Smoothening</p>
+        <p class="h6">Day to night, we toil hard exposing skin to various scenarios, and with scorching heat, chances
+          are aplenty our skin would have turned</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+
+
+    </div>
+
+
+    <!-- START THE FEATURETTES -->
+
+
+    <hr class="featurette-divider">
+
+    <div class="text-center h2 p-2 mb-3">
+      <u> Our Speacialists</u>
+    </div>
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading h4 lh-5">Oh yeah, it’s that good. <span class="text-muted">See for
+            yourself.</span></h2>
+        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this
+          layout would work with some actual real-world content in place.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="./images/doc1.jpg" width="300" height="300">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading h4 lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span>
+        </h2>
+        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
+          intended to be actually read, simply here to give you a better view of what this would look like with some
+          actual content. Your content.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="./images/doc2.jpg" width="300" height="300">
+
+
+      </div>
+    </div>
+
+    <hr id="about_us" class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+    <div class="text-center h3 p-2 mb-3">
+
+      <div class="text-center h2 p-2 mb-3">
+        <u> About Us</u>
+        <p class="h6 mt-2 text-start">Our Cupping has been in this field providing exemplary cupping therapy from the
+          last
+          thirteen
+          years. Everyone who is part of us are professionally trained cupping therapists, leaving not even an inch of
+          space for our quality to get down and maybe that is why our therapy and services have gracefully evolved over
+          the years gaining trust and hope from all customers who walked in to avail cupping.</p>
+      </div>
+      <u> Our Vision</u>
+      <p class="h6 mt-2">Delivering nothing short of excellence in cupping services ensuring every human is healthy and
+        happy, stress-free and fatigue-free, inside and out.</p>
+    </div>
+
+    <div class="container">
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.722947486201!2d80.2675359146296!3d13.053298990802352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267676c0e7605%3A0x6a7422c1dc0eb7a7!2sNATURE%20CURE%20HEALTH%20CARE%20RESEARCH%20CENTER!5e0!3m2!1sen!2sin!4v1676705820797!5m2!1sen!2sin"
+        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fa fa-gem me-3"></i>Company name
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Products
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Angular</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">React</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Vue</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Laravel</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fa fa-home me-3"></i> New York, NY 10012, US</p>
+              <p>
+                <i class="fa fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fa fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fa fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="#">cupping.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
